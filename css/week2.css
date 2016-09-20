@@ -1,0 +1,22 @@
+table,tr,td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+input[type="text"],textarea{
+    background-color: #f0f0f0;
+}
+
+.bgce0{
+    background-color:#e0e0e0;
+}
+.bgcf0{
+    background-color: #f0f0f0;
+}
+
+button[name]{
+    border:none;
+    background-color: #ffa500;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+}

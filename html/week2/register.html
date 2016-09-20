@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>register</title>
+    <link rel="stylesheet" href="../../css/week2.css">
+    <style media="screen">
+        table {
+            width: 888px;
+            margin: 0 auto;
+            height: 800px;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        select {
+            width: 100%
+        }
+
+        input[type="date"] {
+            width: 97%;
+        }
+
+        input[type="text"] {
+            width: 98%;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td rowspan="7" class="bgce0">个人简介</td>
+            <td class="bgcf0">姓名</td>
+            <td><input type="text" placeholder="姓名"></td>
+            <td class="bgcf0">性别</td>
+            <td><input type="radio" name="sex" value="男">男<input type="radio" name="sex" value="女">女</td>
+            <td rowspan="5"><img src="../../img/huaji.jpg" alt=""><br><button type="submit">更换头像</button></td>
+        </tr>
+        <tr>
+            <td class="bgcf0">民族</td>
+            <td><select name="nationality" id="nationality">
+      <option value="1">汉</option>
+      <option value="2">满</option>
+      <option value="3">蒙古</option>
+      <option value="4">藏族</option>
+      <option value="5">维吾尔族</option>
+      <option value="6">回族</option>
+    </select></td>
+            <td class="bgcf0">籍贯</td>
+            <td><input type="text" placeholder="籍贯"></td>
+        </tr>
+        <tr>
+            <td class="bgcf0">出生年月</td>
+            <td><input type="date"></td>
+            <td class="bgcf0">政治面貌</td>
+            <td><select name="faca" id="faca">
+      <option value="1">党员</option>
+      <option value="2">团员</option>
+      <option value="3">队员</option>
+      <option value="4">群众</option>
+    </select></td>
+        </tr>
+        <tr>
+            <td class="bgcf0">毕业院校</td>
+            <td><input type="text" placeholder="毕业院校"></td>
+            <td class="bgcf0">学历</td>
+            <td><select name="xueli" id="xueli">
+              <option value="">小学</option>
+              <option value="">初中</option>
+              <option value="">高中</option>
+              <option value="">本科</option>
+              <option value="">研究生</option>
+              <option value="">博士后</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td class="bgcf0">专业</td>
+            <td><input type="text" placeholder="专业"></td>
+            <td class="bgcf0">英语水平</td>
+            <td><input type="text" placeholder="英语水平"></td>
+        </tr>
+        <tr>
+            <td class="bgcf0">联系电话</td>
+            <td><input type="text" placeholder="联系电话"></td>
+            <td class="bgcf0">电子邮件</td>
+            <td colspan="2"><input style="width: 99%;" type="text" placeholder="电子邮件" name="email"></td>
+        </tr>
+        <tr>
+            <td class="bgcf0">QQ号码</td>
+            <td><input type="text" placeholder="QQ号码"></td>
+            <td class="bgcf0">住址邮编</td>
+            <td colspan="2"><input type="text" placeholder="住址邮编" style="width: 99%;"></td>
+        </tr>
+        <tr>
+            <td class="bgce0">学习经历</td>
+            <td colspan="5"><textarea name="ha" id="" rows="5" style="width: 99%;"></textarea></td>
+        </tr>
+        <tr>
+            <td class="bgce0">项目经验</td>
+            <td colspan="5"><textarea name="ha" id="" rows="5" style="width: 99%;"></textarea></td>
+        </tr>
+        <tr>
+            <td class="bgce0">校园荣誉</td>
+            <td colspan="5"><textarea name="ha" id="" rows="5" style="width: 99%;"></textarea></td>
+        </tr>
+        <tr>
+            <td class="bgce0">兴趣爱好</td>
+            <td colspan="5">
+                <input type="checkbox">足球
+                <input type="checkbox">篮球
+                <input type="checkbox">排球<br>
+                <input type="checkbox">网球
+                <input type="checkbox">跑步
+                <input type="checkbox">乒乓球
+                <input type="checkbox">羽毛球
+                <input type="checkbox">其他
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3"><button type="button" name="button">提交</button></td>
+            <td colspan="3"><button type="reset" name="reset">重置</button></td>
+        </tr>
+    </table>
+</body>
+
+</html>
